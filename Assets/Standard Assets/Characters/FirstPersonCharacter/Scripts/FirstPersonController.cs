@@ -72,8 +72,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             ScoreText.GetComponent<Text>().text = "Score: " + Score;
 
-
-            if(Score >= 60)
+            if (Score == 60)
             {
                 SceneManager.LoadScene("GameWinScene");
             }
