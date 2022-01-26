@@ -4,6 +4,7 @@ using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -43,6 +44,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        public GameObject ScoreText;
+        private int Score;
+
         // Use this for initialization
         private void Start()
         {
@@ -56,12 +60,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+
+            Score = 0;
+
+            ScoreText.GetComponent<Text>().text = "Score: " + Score;
         }
 
 
         // Update is called once per frame
         private void Update()
         {
+            ScoreText.GetComponent<Text>().text = "Score: " + Score;
+
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
@@ -262,7 +272,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if(other.gameObject.CompareTag("Coin"))
             {
                 Destroy(other.gameObject);
-                Debug.Log("Score +10");
+                Score += 10;
             }
 
             if(other.gameObject.CompareTag("Water"))
