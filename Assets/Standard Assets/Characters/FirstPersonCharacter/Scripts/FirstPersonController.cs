@@ -72,6 +72,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             ScoreText.GetComponent<Text>().text = "Score: " + Score;
 
+
+            if(Score >= 60)
+            {
+                SceneManager.LoadScene("GameWinScene");
+            }
+
             RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
