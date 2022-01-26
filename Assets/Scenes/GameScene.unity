@@ -1383,6 +1383,8 @@ MonoBehaviour:
   m_JumpSound: {fileID: 8300000, guid: b956f758e30e243e6ae392e5ec87a31c, type: 3}
   m_LandSound: {fileID: 8300000, guid: b1d46e61af97c4e999513b1ca0de7f40, type: 3}
   ScoreText: {fileID: 1548225308}
+  coinParticle: {fileID: 9034955881130661011, guid: 7aec0b1b71c3325458a03e1269fbe903,
+    type: 3}
 --- !u!124 &505253095
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1513,6 +1515,7 @@ GameObject:
   - component: {fileID: 514179201}
   - component: {fileID: 511306081}
   - component: {fileID: 504244545}
+  - component: {fileID: 513957028}
   - component: {fileID: 519159745}
   - component: {fileID: 517915969}
   - component: {fileID: 513957026}
@@ -1556,6 +1559,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &513957028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513957025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d82e1bc863c6b3143b42a6327a2a65c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  totalCoins: 6
+  timeLeft: 20
+  timeRemaining: 20
+  TimerText: {fileID: 1718082345}
 --- !u!4 &514179201
 Transform:
   m_ObjectHideFlags: 0

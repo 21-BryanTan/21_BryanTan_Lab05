@@ -47,6 +47,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public GameObject ScoreText;
         private int Score;
 
+        public GameObject coinParticle;
+
         // Use this for initialization
         private void Start()
         {
@@ -278,6 +280,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Destroy(other.gameObject);
                 Score += 10;
+                Instantiate(coinParticle,transform.position,Quaternion.identity);
             }
 
             if(other.gameObject.CompareTag("Water"))
