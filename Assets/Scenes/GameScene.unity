@@ -652,6 +652,7 @@ GameObject:
   - component: {fileID: 386057946}
   - component: {fileID: 386057945}
   - component: {fileID: 386057944}
+  - component: {fileID: 386057947}
   m_Layer: 0
   m_Name: Coin (5)
   m_TagString: Coin
@@ -734,6 +735,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386057942}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &386057947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386057942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc00c316c2a91d14a88ce549799ff7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 50
 --- !u!1 &396059982
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +946,7 @@ GameObject:
   - component: {fileID: 429442797}
   - component: {fileID: 429442796}
   - component: {fileID: 429442795}
+  - component: {fileID: 429442794}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -939,6 +954,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &429442794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429442793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc00c316c2a91d14a88ce549799ff7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 50
 --- !u!136 &429442795
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1026,6 +1054,7 @@ GameObject:
   - component: {fileID: 436324126}
   - component: {fileID: 436324125}
   - component: {fileID: 436324124}
+  - component: {fileID: 436324127}
   m_Layer: 0
   m_Name: Coin (4)
   m_TagString: Coin
@@ -1108,6 +1137,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436324122}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &436324127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436324122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc00c316c2a91d14a88ce549799ff7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 50
 --- !u!1 &502621724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1120,6 +1162,7 @@ GameObject:
   - component: {fileID: 502621728}
   - component: {fileID: 502621727}
   - component: {fileID: 502621726}
+  - component: {fileID: 502621729}
   m_Layer: 0
   m_Name: Coin (3)
   m_TagString: Coin
@@ -1202,6 +1245,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502621724}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &502621729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502621724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc00c316c2a91d14a88ce549799ff7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 50
 --- !u!114 &504244545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3031,6 +3087,7 @@ GameObject:
   - component: {fileID: 1603455283}
   - component: {fileID: 1603455282}
   - component: {fileID: 1603455281}
+  - component: {fileID: 1603455284}
   m_Layer: 0
   m_Name: Coin (1)
   m_TagString: Coin
@@ -3113,6 +3170,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603455279}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1603455284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603455279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc00c316c2a91d14a88ce549799ff7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 50
 --- !u!1 &1605836336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3254,6 +3324,7 @@ GameObject:
   - component: {fileID: 1954936638}
   - component: {fileID: 1954936637}
   - component: {fileID: 1954936636}
+  - component: {fileID: 1954936639}
   m_Layer: 0
   m_Name: Coin (2)
   m_TagString: Coin
@@ -3336,6 +3407,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954936634}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1954936639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954936634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc00c316c2a91d14a88ce549799ff7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinSpeed: 50
 --- !u!1 &2014010564
 GameObject:
   m_ObjectHideFlags: 0
