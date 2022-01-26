@@ -61,12 +61,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer-hlapi": {
-      "version": "1.0.6",
+      "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "nuget.mono-cecil": "0.1.6-preview"
+        "com.unity.nuget.mono-cecil": "1.10.1"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.10.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.purchasing": {
@@ -99,10 +106,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.2.6",
+      "version": "1.2.18",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
@@ -117,13 +129,6 @@
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.4",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "nuget.mono-cecil": {
-      "version": "0.1.6-preview",
-      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
